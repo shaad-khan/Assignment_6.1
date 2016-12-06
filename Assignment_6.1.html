@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Radius of a circle</title>
+<script>
+function cal()
+{
+var r=document.getElementById("radius").value;
+
+var area= r*r*3.14159;
+
+document.getElementById("ans").innerHTML = "<p> The Area Of the circle is :" + area;
+
+}
+
+</script>
+</head>
+
+<body>
+<section><p>Enter the radius of a circle <input type="text" id="radius"> <button onclick="cal()">Calculate Rarius of circle</button></p></section>
+<div id="ans"></div>
+
+</body>
+
+</html>
